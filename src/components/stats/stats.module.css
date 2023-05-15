@@ -1,0 +1,27 @@
+#title>h2{
+    font-size: 40px;
+    color: #00C8CD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#title>p{
+    font-size: 16px;
+    color:#00C8CD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#title>img{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

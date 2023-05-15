@@ -1,0 +1,13 @@
+#image{
+    width: 100%;
+    height: 100%;
+    background-color: #00C8CD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#maximage{
+    width: 50%;
+    height: 50%;
+}

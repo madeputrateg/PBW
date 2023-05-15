@@ -1,0 +1,20 @@
+#button{
+    background-color: rgb(0, 200, 205);
+    color: white;
+    height: 45px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+#menu_button{
+    color: black;
+    cursor: pointer;
+}
+#menu_button:active{
+    color:#00C8CD;
+}
+#menu_button:focus{
+    color:#00C8CD;
+}

@@ -1,0 +1,39 @@
+#container{
+    width: 20vw;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+#title>h1{
+    font-size: 16px;
+    color: #00C8CD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#title>p{
+    font-size: 16px;
+    color:#828282;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#title{
+    display: flex;
+    overflow: hidden;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#message{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 16;
+    color:#828282;
+}

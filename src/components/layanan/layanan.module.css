@@ -1,0 +1,14 @@
+#title>h1{
+    font-size: 40px;
+    color: #00C8CD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#title>p{
+    font-size: 16px;
+    color:#828282;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

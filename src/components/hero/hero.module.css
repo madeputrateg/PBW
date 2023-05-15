@@ -1,0 +1,37 @@
+#divframe{
+    width:480px ;
+    height: 315px;
+}
+#divframe>h1{
+    font-size: 40px;
+    color: white;
+}
+#divframe>p{
+    padding-top: 10px;
+    font-size: 16;
+    color: white;
+}
+#divframe>div{
+    padding-top: 50px;
+}
+#button_1{
+    background-color:#0963B7 ;
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button_2{
+    height: 50px;
+    background-color:None;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

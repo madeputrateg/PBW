@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/header/header.js'
+import Hero from './components/hero/hero.js'
+import Layanan from './components/layanan/layanan.js';
+import Tentang from './components/tentang/tentang.js';
+import Stats from './components/stats/stats.js';
+import KlienKami from './components/klienkami/klienkami.js';
+import Pertanyaan from './components/pertanyaan/pertanyaan.js';
+import Footer from './components/footer/footer.js';
+import LoginFirst from './page/loginfirst/loginfirst.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <LoginFirst/>
     </div>
   );
 }

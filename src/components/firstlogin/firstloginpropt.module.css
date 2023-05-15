@@ -1,0 +1,46 @@
+#buttonwhite{
+    border: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    border-color:#197DC6 ;
+    border-radius: 10px;
+    display: inline-flex;
+    position: relative;
+    margin: 10px;
+}
+#buttontext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    font-weight: bold;
+}
+#buttonimage{
+    left: 5%;
+    top:50%;
+    transform: translate(0%,-50%);
+    position: absolute;
+}
+#buttonblue{
+    width: 100%;
+    margin: 10px;
+    height: 50px;
+    justify-content: center;
+    background-color:#00C8CD ;
+    border-radius: 10px;
+    display: inline-flex;
+    position: relative;
+    color: white;
+}
+#maindiv{
+    width: 80%;
+}
+#spancolour{
+    color:#00C8CD ;
+}
+#pbold{
+    font-weight: bold;
+}

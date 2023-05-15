@@ -1,0 +1,69 @@
+
+#buttontext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    font-weight: bold;
+}
+#buttonwhite{
+    border: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    border-color:#197DC6 ;
+    border-radius: 10px;
+    display: inline-flex;
+    position: relative;
+    margin: 10px;
+}
+#buttonimage{
+    left: 5%;
+    top:50%;
+    transform: translate(0%,-50%);
+    position: absolute;
+}
+#buttonblue{
+    width: 100%;
+    margin: 10px;
+    height: 50px;
+    justify-content: center;
+    background-color:#00C8CD ;
+    border-radius: 10px;
+    display: inline-flex;
+    position: relative;
+    color: white;
+}
+#maindiv{
+    width: 80%;
+}
+#spancolour{
+    color:#00C8CD ;
+}
+#pbold{
+    font-weight: bold;
+}
+#textinput{
+    width: 100%;
+    font-size: 20px;
+    border: solid;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width:0px;
+    border-right-width: 0px;
+    border-color: #828282;
+    color: #828282;
+    margin: 10px;
+}
+#textinput:focus{
+    outline: none;
+    border: solid;
+    border-top-width: 0px;
+    border-bottom-width: 2px;
+    border-left-width:0px;
+    border-right-width: 0px;
+    border-color: black;
+    color: black;
+}
