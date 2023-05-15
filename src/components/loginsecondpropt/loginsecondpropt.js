@@ -15,7 +15,7 @@ function LoginSecondPropt(){
         }));
     };
     const handleSubmit = (e) => {
-        fetch('/api/submit', {
+        fetch('http://localhost:8083/Login', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
