@@ -1,7 +1,7 @@
 import styles from './img_linear.module.css';
 
 function ImgLinear(props){
-    return(<div className="container-fluid position-relative" style={{height:"30vh",width:"25vw",marginTop:"5px",marginBottom:"5px"}}>
+    return(<div id={styles.maindiv}  className="container-fluid position-relative" >
         <img
             src={props.image}
             id={styles.image}

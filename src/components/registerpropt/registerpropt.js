@@ -54,10 +54,10 @@ function RegisterPropt(){
             <p className='d-flex justify-content-center'>dengan membuat akun saya menyatakan telah membaca dan menerima D3 term of use dan privaci policy</p>
         </div>
         <div className='row w-100 justify-content-center'>
-            <p className='d-flex justify-content-center' onClick={handleSubmit}>sudah punya akun? Login</p>
+            <p className='d-flex justify-content-center' >sudah punya akun? Login</p>
         </div>
         <div className='row w-100 justify-content-center'>
-            <div id={styles.buttonblue}><p id={styles.buttontext}>Buat akun</p></div>
+            <div id={styles.buttonblue}><p id={styles.buttontext} onClick={handleSubmit}>Buat akun</p></div>
         </div>
     </div>)
 }

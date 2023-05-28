@@ -1,0 +1,19 @@
+#sidebar{
+    background-color:#00C8CD ;
+    min-height: 100vh;
+    height: 100%;
+    padding: 0px;
+    list-style-type: none;
+}
+#container{
+    min-height: 100vh;
+}
+#sidebar>li{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
