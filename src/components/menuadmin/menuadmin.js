@@ -6,7 +6,7 @@ function Menuadmin(props){
             {props.name}
         </div>
         <div className="col-2">
-
+            
         </div>
     </div>)
 }
